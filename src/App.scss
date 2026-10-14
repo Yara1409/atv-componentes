@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  button{
+    width: 90px;
+    height: 60px;
+    border: none;
+    background-color: rgba(30, 30, 136, 0.692);
+    color: aliceblue;
+    border-radius: 10px;
+     transition: 0.3s;
+  }
+  button:hover{
+    width: 100px;
+    height: 70px;
+    border: none;
+    background-color: rgba(30, 30, 136, 0.671);
+    color: aliceblue;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+}
+
+.tudo{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  ins{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+  }
+}
